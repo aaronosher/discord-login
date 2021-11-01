@@ -10,6 +10,11 @@ export interface User {
   lastName: string;
   fullName: string;
   verified: boolean;
+  ticketUrl: string;
+  ticketReleaseTitle: string;
+  ticketReleaseId: number;
+  verificationStarted: boolean;
+  enrolled?: boolean;
 }
 
 export type EncryptedUser = User;
